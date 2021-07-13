@@ -45,10 +45,7 @@ bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean verify/)
 }
 
 }
-
-
-
-
+}
 
 
 
