@@ -24,15 +24,6 @@ bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
 
 }
 
-
-
-
-
-
-
-
-
-
 stage('Unit Test') {
 
 junit '**/target/surefire-reports/TEST-*.xml'
